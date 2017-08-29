@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/rect"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/xd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:text=" 主页 "
+            android:id="@+id/home"
+            android:layout_weight="0.5"
+            android:textColor="#000000"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/submin"
+            android:layout_weight="0.8"
+            android:background="@color/half"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="&lt; -0.5s"/>
+        <LinearLayout
+            android:layout_weight="1.6"
+            android:layout_width="0dp"
+            android:background="#40000000"
+            android:layout_height="match_parent">
+            <EditText
+                android:cursorVisible="false"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.5dp"
+                android:id="@+id/skiptarget"
+                android:hint="分:秒"
+                android:gravity="center"
+                android:layout_weight="1.3"
+                android:inputType="time"
+                android:background="#4D000000"
+                android:maxLength="6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:id="@+id/skip"
+                android:layout_weight="1"
+                android:text="空降"
+                android:background="#4D000000"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/addsec"
+            android:layout_weight="0.8"
+            android:text="0.5s +&gt;"
+            android:background="@color/half"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/textcolor"
+            android:text=" 颜色 "
+            android:background="@color/half"
+            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+<FrameLayout
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/ddfas"
+        android:shadowColor="#000000"
+        android:gravity="center"
+        android:shadowDx="3"
+        android:background="@color/half"
+        android:textColor="#FFFFFF"
+        android:shadowRadius="4"
+        android:textSize="21dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp" />
+</FrameLayout>
+</LinearLayout>

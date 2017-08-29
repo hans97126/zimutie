@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD39B</color>
+    <color name="colorPrimaryDark">#B8860B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="traspare">#00000000</color>
+    <color name="half">#80000000</color>
+    <color name="press">#CC000000</color>
+    <color name="yellotrans">#A6FFD39B</color>
+    <color name="one">#73000000</color>
+    <color name="two">#40000000</color>
+    <color name="three">#1A000000</color>
+</resources>

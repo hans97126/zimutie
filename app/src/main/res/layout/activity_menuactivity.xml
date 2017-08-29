@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android='http://schemas.android.com/apk/res/android'
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEFA"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:text="使用方法"
+            />
+        <TextView
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text=" 第一步 ，点击“选择字幕”选择要看的番剧"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text=" 第二步 , 点击，启动软件，后开始运行程序,之后会弹出一个(*`・ω・*)ゞ悬浮窗，如果没有，请检查是否开启了悬浮窗权限"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text=" 第三步，打开要看的番剧，在此过程中不要播放其他视频或音乐，开始播放时，字幕会自动打开"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+         <TextView
+            android:textSize="22dp"
+            android:text="  如果发现字幕和视频不同步，请检查播放器的时间和悬浮窗左下显示的时间是否一致，若不一致，暂停后双击左下角提示的位置，然后把播放器的时间输入进去，确认即可"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#87CEFA"
+            android:textSize="26dp"
+            android:gravity="center"
+            android:text="常见问题"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jieshao"/>
+        <TextView
+            android:text="反馈"
+            android:background="#87CEFA"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="邮箱：1191458130@qq.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/clearall"
+            android:text="清除数据"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

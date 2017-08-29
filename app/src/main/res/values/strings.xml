@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">字幕贴</string>
+    <string name="emojinorm">(*`・ω・*)ゞ</string>
+    <string name="emojiafford">∑(」゜ロ゜)」</string>
+    <string name="emojiblink">(*`－ω－*)ゞ</string>
+    <string name="emojidizzy">( `＠﹃＠ )ゞ</string>
+    <string name="jieshao">Q:如果我的软件打开某一部番剧后就会卡死，该怎么办？\nA:这是因为从服务器上读到了坏的数据的缘故，我会尽可能快的修复这个问题，问题修复好后，需要你点击下面的按钮，然后重启应用。问题就修复了\n\nQ：为啥我的字幕和番剧不同步？\nA:可能是由于字幕的时间轴和您观看的动漫不一样，请从bilibili观看该番剧。\n\nQ:为什么有的番剧内容不完整，缺少某一集或某一季？\n A:这是因为没有相应的资源，如果找到对应资源我会尽快补上。"</string>
+</resources>
